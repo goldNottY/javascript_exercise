@@ -2,7 +2,7 @@ let container = document.getElementById("container");
 let wagon = document.getElementById("wagon");
 
 wagon.style.position = 'absolute';
-wagon.style.bottom = '0px';
+wagon.style.bottom = '0.5vh';
 wagon.style.left = '0px';
 wagon.innerHTML = "1"
 
@@ -13,4 +13,3 @@ setInterval(function() {
     wagon.style.left = '0px';
   }
 },20);
-
